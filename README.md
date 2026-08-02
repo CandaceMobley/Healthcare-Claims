@@ -4,7 +4,7 @@ This project reviews the health insurance claims financials to help the C-Level 
 
 Using SQL for modeling and calculation logic and Power BI for interactive reporting, this analysis is designed to analyze and break down healthcare spending to understand which services, procedures, and members drive the highest costs. 
 
-Targeted SQL queries regarding various business questions can be found [here](HealthcareClaims.sql).
+Targeted SQL queries regarding various business questions can be found [here](Healthcare%20Claims.sql).
 
 # Data Structure & Initial Checks
 The main database structure, as seen below, consists of one table: Claims, with a total row count of 464 records. 

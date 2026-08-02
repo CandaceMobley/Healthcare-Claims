@@ -1,13 +1,3 @@
-# Identifying blank rows in columns and adding value to blank spaces
-SELECT member_id, 
-	enrollment_end_date
-FROM members
-WHERE enrollment_end_date = '';
-
-UPDATE members
-SET enrollment_end_date = 'NULL'
-WHERE enrollment_end_date = '';
-
 # Claim type cost breakdown and rank claim types (expensive to least)
 SELECT claim_type,
 	SUM(billed_amount) AS total_billed_amount,
